@@ -1,0 +1,231 @@
+.main-headding {
+  display: block;
+  width: 45vw;
+  margin: 15px auto 25px;
+  text-align: center;
+}
+.main-headding h2 {
+  margin-bottom: 10px;
+}
+.main-headding p {
+  line-height: 1.8;
+}
+.contain {
+  margin: 0 80px;
+}
+@media (max-width: 767px) {
+  .main-headding {
+    width: 80vw;
+  }
+  .contain {
+    margin: 0 35px;
+  }
+}
+
+
+
+header.header {
+  width: 100vw;
+  height: 30vh;
+  background-image: url(../images/bg-header-desktop.png);
+  background-size: cover;
+  margin-top: -18px;
+}
+@media (max-width: 767px) {
+  header.header {
+    background-image: url(../images/bg-header-mobile.png);
+    height: 50vh;
+  }
+}
+
+
+.landing {
+  max-width: 100vw;
+  width: 100vw;
+  padding: 100px 0;
+}
+.landing .container .txt {
+  width: 100%;
+}
+.landing .container .txt p {
+  width: 100%;
+}
+.landing .container .txt .btns {
+  width: 50%;
+  margin: 25px auto;
+}
+.landing .container .txt .btns > * {
+  width: 180px;
+  margin: 30px auto 0;
+  cursor: pointer;
+}
+.landing .container .txt .btns .btn-1 {
+  background-color:hsl(171, 66%, 44%);
+}
+.landing .container .txt .btns .btn-2 {
+  background-color:hsl(233, 100%, 69%);
+}
+@media (max-width: 767px) {
+  .landing .container h1 {
+    font-size: 25px;
+  }
+  .landing .container .txt .btns {
+    width: 90%;
+  }
+}
+
+
+.pro {
+  width: 100vw;
+  max-width: 100vw;
+  padding: 100px 0;
+  overflow: hidden;
+}
+.pro .content {
+  max-width: 100%;
+  overflow: hidden;
+  padding-right: 15px;
+}
+.pro .content .img {
+  flex-basis: 50%;
+  left: -25px;
+}
+.pro .content .txt {
+  flex-basis: 30%;
+  right: 60px;
+  /* margin-right: 100px; */
+}
+.pro .content .txt div p {
+  line-height: 1.6;
+}
+@media (max-width: 767px) {
+  .pro .content .img,
+  .pro .content .txt {
+    flex-basis: 100%;
+    text-align: center;
+    margin: 20px auto;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+  .pro .content .txt div {
+    width: 70vw;
+  }
+  .pro .content .txt div h4 {
+    display: block;
+  }
+}
+
+
+.charge {
+  padding: 100px 0;
+}
+.charge .container {
+  margin: 0 auto;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+.charge .container .row .col-4 {
+  margin-top: 40px;
+}
+.charge .row .img {
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+
+.companies {
+  padding: 50px 0 100px;
+}
+.companies .contain {
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+.companies .contain .img {
+  margin: 50px auto 5px;
+}
+
+
+.download {
+  padding: 100px 0;
+  width: 100vw;
+}
+.download .btns {
+  width: 35%;
+  margin: 25px auto;
+}
+.download .btns > * {
+  width: 180px;
+  margin: 30px auto 0;
+  cursor: pointer;
+}
+.download .btn-1 {
+  background-color:hsl(171, 66%, 44%);
+}
+.download .btns .btn-2 {
+  background-color:hsl(233, 100%, 69%);
+}
+@media (max-width: 767px) {
+  .download .btns {
+    width: 90%;
+  }
+}
+
+
+footer.footer {
+  width: 100vw;
+  max-width: 100vw;
+}
+footer.footer .img {
+  width: 50px;
+  left: 150px;
+}
+footer.footer .links {
+  flex-basis: 40%;
+  line-height: 2;
+}
+footer.footer .links span {
+  cursor: pointer;
+}
+footer.footer .attribution {
+  font-size: 15px;
+  text-align: center;
+}
+footer.footer .attribution a {
+  font-size: 25px;
+  color: hsl(228, 45%, 44%);
+}
+footer.footer .coptyright {
+  color: hsl(228, 45%, 44%);
+  font-size: 20px;
+}
+footer.footer * {
+  max-width: 100%;
+}
+@media (max-width: 767px) {
+  footer.footer {
+    min-height: 100vh;
+  }
+  footer.footer .contain {
+    justify-content: center;
+  }
+  footer.footer .links {
+    flex-basis: 100%;
+    margin: 50px auto;
+    flex-direction: column;
+    text-align: center;
+  }
+  footer.footer .attribution a {
+    font-size: 22px;
+  }
+}
